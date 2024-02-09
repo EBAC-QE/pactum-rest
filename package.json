@@ -1,0 +1,19 @@
+{
+  "name": "pactum-rest",
+  "version": "1.0.0",
+  "description": "Testes em REST com Pactum",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "ernestosbarbosa",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.3.0",
+    "pactum": "^3.6.0"
+  },
+  "dependencies": {
+    "pactum-matchers": "^1.1.6"
+  }
+}
